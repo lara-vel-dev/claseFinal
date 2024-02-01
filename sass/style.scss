@@ -1,0 +1,41 @@
+@use "variables" ;
+@use "sass:map";
+
+$selector: '.container';
+$propiedad: 'font-size';
+$medida: 4/6;
+
+$colors: (
+    "primary": #4da4f0,
+    "alert": #a80303,
+    "success": #29c120
+);
+
+
+div {
+    background-color: map.get($colors, "primary");
+}
+
+body {
+    color: map.get($colors, "primary");
+}
+
+#{$selector} {
+    width: 200px;
+    #{$propiedad}: #{$medida}rem;
+}
+
+.product-card {
+    background-color: red;
+
+    &__img {
+        width: 100px;
+    }
+
+    &:hover {
+        background-color: blue;
+    }
+
+}
+
+

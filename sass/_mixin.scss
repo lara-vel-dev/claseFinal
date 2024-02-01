@@ -1,0 +1,24 @@
+@mixin boton($tipo) {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    @if $tipo == "primary" {
+        background-color: aqua;
+        color: #fff;
+    } @else if $tipo == "secondary" {
+        background-color: aquamarine;
+        color: #000;
+    } @else {
+        background-color: red;
+        color: #000;
+    }
+}
+
+.button-primary {
+    @include boton("primary");
+}
+
+.button-primary {
+    @include boton("alert");
+}

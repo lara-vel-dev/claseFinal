@@ -1,0 +1,32 @@
+// If
+$tema: "claro";
+
+body {
+
+    @if $tema == "oscuro" {
+        background-color: #000;
+        color: #fff;
+
+    } @else {
+        background-color: #fff;
+        color: #000;
+    }
+
+}
+
+// For
+@for $i from 1 through 5 {
+    .li-#{$i} {
+        width: 10px * $i;
+    }
+}
+
+
+// Each
+$medidas: 10px 20px 30px;
+
+@each $medida in $medidas {
+    .medida-#{$medida} {
+        font-size: $medida;
+    }
+}

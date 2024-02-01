@@ -1,0 +1,24 @@
+@use "sass:list";
+
+
+// Listas tipo 1 (espacios)
+// $list: 30px 20px;
+
+// // Listas tipo 2 (comas)
+// $list2: 30px, 20px;
+
+// // Listas tipo 3 (corchetes)
+// $list3: [30] [20];
+
+$margin: 30px 40px 35px 45px;
+
+body {
+
+    margin-top: list.nth($margin, 1);
+
+}
+
+
+
+
+
