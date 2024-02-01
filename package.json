@@ -1,0 +1,29 @@
+{
+  "name": "clasefinalfront",
+  "version": "1.0.0",
+  "description": "clase final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lara-vel-dev/claseFinal.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "JS",
+    "Node"
+  ],
+  "author": "Daniela Lara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lara-vel-dev/claseFinal/issues"
+  },
+  "homepage": "https://github.com/lara-vel-dev/claseFinal#readme",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}
